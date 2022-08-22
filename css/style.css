@@ -1,0 +1,97 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.main{
+  background:  linear-gradient(
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)), url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Libya_4985_Tadrart_Acacus_Luca_Galuzzi_2007.jpg/1920px-Libya_4985_Tadrart_Acacus_Luca_Galuzzi_2007.jpg");
+  height: 100vh;
+  background-size: 100% 100%;
+}
+.navbar{
+  width: 100%;
+  height: 80px;
+}
+.navbar ul{
+  float: right;
+  margin-right: 20px;
+}
+.navbar .Logo{
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 25px;
+}
+.navbar .Logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+  font-family: sans-serif;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin-top: 27px; 8px;
+  margin-right: 150px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 6px 13px;
+}
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+.col{
+  flex-basis:50%;
+
+}
+h1{
+  color:#fff;
+  font-size: 100px;
+}
+p{
+  color:#fff;
+  font-size: 15px;
+  line-height: 15px;
+  font-family: sans-serif;
+}
+button{
+  width: 180px;
+  height: 40px;
+  border-radius: 23px;
+  color: #000;
+  font-size: 12px;
+  background: #fff;
+  outline: none;
+  margin-top: 30px;
+  border: 0;
+}
+.card{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-left: 10px 15px;
+  background-position: center;
+  background-size: cover;
+}
+.card-1{
+  background-image: url("https://cdn.getyourguide.com/img/tour/5e6146ed12514.jpeg/145.jpg");
+}
+.card-2{
+  background-image: url("https://dziendobry.tvn.pl/najnowsze/cdn-zdjecie-548iuy-sahara-i-jej-tajemnice-5439005/alternates/LANDSCAPE_1024");
+}
+.card-3{
+  background-image: url("https://th-thumbnailer.cdn-si-edu.com/AMg2HHVpDuLByTS4_WJWJoyNgsU=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/ee/54/ee546179-a222-470a-8f7e-147ca1adbcc6/42-56923287.jpg");
+}
+.card-4{
+  background-image: url("https://www.ifad.org/documents/38714174/44692206/ggw_cover.png.jpg/51a3b020-ecb5-1574-19ec-dde56dd98268?t=1652774302691");
+}
